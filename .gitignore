@@ -1,2 +1,3 @@
 dist/
 workers-site/
+node_modules/

@@ -1,0 +1,11 @@
+name = "nyadoi"
+type = 'webpack'
+account_id = '84360be8d748ddadfd6897136883929a'
+zone_id = '81f4ea11d5b83ab03a5b2c7cb73678eb'
+usage_model = ''
+target_type = "webpack"
+route = 'nyadoi.linnil1.me/*'
+workers_dev = false
+
+[site]
+bucket = 'dist'
