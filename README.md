@@ -1,6 +1,6 @@
 # Nyadoi Oh. So. Cute 喵朵伊 就。很。Cute
 
-Deploy Website URL: https://nyadoi.linnil.me
+Deploy Website URL: https://nyadoi.linnil1.me
 
 It's a side side project
 
@@ -76,9 +76,9 @@ MIT
 Except:
 
 These two images has copyright. Ask Nyadoi first before using it.
-* public/no-padding-nyadoi.png
-* public/nyadoi_pixel.webp
+* no-padding-nyadoi.png
+* nyadoi_pixel.webp
 
 Read the guildline of youtube brand and twitter before use below two images 
-* public/yt_icon_rgb.png
-* public/'2021 Twitter logo - blue.png'
+* yt_icon_rgb.png
+* '2021 Twitter logo - blue.png'
