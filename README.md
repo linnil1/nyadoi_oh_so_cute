@@ -16,7 +16,7 @@ wrangler publish
 ## Webpack pug + stylus Deploy
 
 ``` bash
-cd pug_stylus_html  
+cd pug_stylus_webpack
 yarn install
 yarn build
 rm dist/tmp.js
@@ -41,7 +41,7 @@ Create a custom filter can work:
     'loader': 'pug-loader',
     'options': {
       filters:  {
-        stylusfile: function(f) { 
+        stylusfile: function(f) {
           var stylus = require('jstransformer')(require('jstransformer-stylus'));
           return stylus.renderFile(f).body;
         }
@@ -79,6 +79,6 @@ These two images has copyright. Ask Nyadoi first before using it.
 * no-padding-nyadoi.png
 * nyadoi_pixel.webp
 
-Read the guildline of youtube brand and twitter before use below two images 
+Read the guildline of youtube brand and twitter before use below two images
 * yt_icon_rgb.png
 * '2021 Twitter logo - blue.png'

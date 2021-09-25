@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap')
+
+small-win-size = 576px
+
+body
+  font-family Noto Sans TC, Helvetica Neue, Helvetica, Arial, sans-serif
+  letter-spacing 0em
+  color black
+  display flex
+  flex-direction column
+  align-items center
+  text-align center
+
+.nyadoi
+  display flex
+  flex-direction column
+  align-items center
+  max-width 40em
+  font-size 22px
+  margin-top 1.5em
+  @media (max-width small-win-size)
+    font-size 18px
+    margin-top 0.5em
+
+p
+  margin 0.3em
+  .descr &
+    margin-left 0
+    margin-right 0
+
+.name
+  font-size 1.5em
+
+.bigword
+  font-size 2em
+  font-weight bold
+  margin-top 0
+
+.descr
+  color gray
+  display flex
+  flex-direction row
+  margin-bottom 1em
+  @media (max-width small-win-size)
+    flex-direction column
+    .split
+      display none
+
+.link a
+  text-decoration none
+  &visited
+    color blue
+  .icon
+    height 1em
+    margin-left 0.3em
+    margin-right 0.3em
+
+.figure
+  margin-top 1em
+  width 100%
+  padding-left 23%
