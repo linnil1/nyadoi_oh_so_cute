@@ -22,39 +22,45 @@ body
     font-size 18px
     margin-top 0.5em
 
+// margin for each line
 p
   margin 0.3em
   .descr &
     margin-left 0
     margin-right 0
+  &.bigword
+    margin-top 0
+.descr
+  margin-bottom 1em
 
+// font
 .name
   font-size 1.5em
-
 .bigword
   font-size 2em
   font-weight bold
-  margin-top 0
 
+// Collapse words in small screen
 .descr
   color gray
   display flex
   flex-direction row
-  margin-bottom 1em
   @media (max-width small-win-size)
     flex-direction column
     .split
       display none
 
+// Links setting
 .link a
   text-decoration none
-  &visited
+  &:visited
     color blue
   .icon
     height 1em
     margin-left 0.3em
     margin-right 0.3em
 
+// Image
 .figure
   margin-top 1em
   width 100%
